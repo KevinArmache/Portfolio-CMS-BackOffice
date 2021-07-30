@@ -17,9 +17,6 @@ function Form() {
         "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE",
       },
     });
-    console.log(Github);
-    console.log(Cloudinary);
-    console.log("send");
   };
 
   return (
