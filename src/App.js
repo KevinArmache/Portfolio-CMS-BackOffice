@@ -12,12 +12,10 @@ function App() {
         return response.json();
       })
       .then(function (data) {
-        console.log(data);
         setProject(data);
       })
       .catch((err) => console.log(err));
   }, []);
-  console.log(Project);
   return (
     <div className="App">
       <h1>Back Office Portfolio CMS</h1>
